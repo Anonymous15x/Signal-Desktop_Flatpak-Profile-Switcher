@@ -23,13 +23,13 @@ A simple Bash script to **back up, manage, and switch between multiple Signal De
 
 ---
 
-## Compatibility
+## 🛠️ Compatibility
 
 This script works with all versions of Signal Desktop installed via Flatpak, by backing up and replacing the user data directory at:(`~/.var/app/org.signal.Signal`). It does **not rely on internal file formats**, so it remains compatible across updates.
 
 ---
 
-## Installation
+## 📦 Installation
 
 1. Download the latest release from the [Releases page](https://github.com/colvdv/Signal-Desktop_Flatpak-Profile-Switcher/releases/latest).
 
