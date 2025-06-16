@@ -1,31 +1,31 @@
 # COLVDV's Signal Desktop Flatpak Profile Switcher
-A simple Bash script to backup, manage, and switch between multiple Signal Desktop Flatpak profiles, allowing easy account switching without re-linking.
+A simple Bash script to **back up, manage, and switch between multiple Signal Desktop accounts** installed via Flatpak on Linux (Fedora, Ubuntu, Linux Mint, etc.). Use different profiles/accounts without needing to re-link or reconfigure each time.
 
 ---
 
-## Features
-
-- Easily switch between multiple Signal Desktop Flatpak profiles on Linux (Fedora, Ubuntu, etc.)
-- Backup Signal Desktop Flatpak user data safely before switching profiles.  
-- Switch between two profiles (`Signal1` and `Signal2`) with custom descriptions.  
-- Ensures Signal Desktop is closed before switching to prevent data corruption.  
-- Stores backups in `~/.signal-flatpak-backups/`.  
-- Keeps track of last used profile for smooth switching.  
+## 🚀 Features
+- Switch between **multiple Signal Desktop Flatpak profiles** (e.g., work/personal accounts).
+- Fully **isolated Signal accounts** with their own data directories.
+- **Safe backup** of Signal Desktop user data before switching.
+- Custom profile descriptions (```Signal1```, ```Signal2```, etc.).
+- **Automatic check** to ensure Signal Desktop is closed before switching (prevents corruption).
+- Keeps backups in ```~/.signal-flatpak-backups/ ```.
+- Tracks last used profile to show current active account.
 
 ---
 
-## Requirements
+## 🧰 Requirements
 
-- Signal Desktop installed via Flatpak.  
-- Linux system with Bash shell.  
-- `rsync` and `pgrep` installed.  
-- Signal Desktop must be closed before switching profiles.  
+- **Signal Desktop** installed via Flatpak.
+- **Linux** system (Fedora, Ubuntu, Arch, etc.).
+- ```bash```, ```rsync```, and ```pgrep``` installed _(most distros have them by default)_.
+- You **must close Signal Desktop** before switching profiles.
 
 ---
 
 ## Compatibility
 
-This script supports **all Signal Desktop Flatpak releases**, as it works by backing up and swapping the entire Flatpak user data directory (`~/.var/app/org.signal.Signal`). It does not rely on specific internal file formats, making it compatible across versions.
+This script works with all versions of Signal Desktop installed via Flatpak, by backing up and replacing the user data directory at:(`~/.var/app/org.signal.Signal`). It does **not rely on internal file formats**, so it remains compatible across updates.
 
 ---
 
@@ -39,18 +39,18 @@ This script supports **all Signal Desktop Flatpak releases**, as it works by bac
    cd /PATH/TO/DOWNLOADED/SCRIPT
    ```
    
-3. Make the script executable (_one time only_):
+3. Make the script executable (_only needs to be done once_):
 
    ```bash
    chmod +x COLVDV_Signal-Desktop_Flatpak-Profile-Switcher.sh
    ```
 
-4. Ensure Signal Desktop isn't running. If it is, close it.
+4. Ensure Signal Desktop is **not running** (the script will also check for this).
 
-5. Run the script from the containing directory:
+5. Run the script:
 
    ```bash
    ./COLVDV_Signal-Desktop_Flatpak-Profile-Switcher.sh
    ```
 
-6. Follow the prompts to use the script for switching Signal Desktop Flatpak profiles.
+6. Follow the interactive prompts to back up or switch between profiles.
