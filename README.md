@@ -29,7 +29,7 @@ This script **works with all versions of Signal Desktop installed via Flatpak**,
 
 ---
 
-## 📦 Installation & Usage Instructions
+## 📦 Usage Instructions
 
 1. Download the latest release from the [Releases page](https://github.com/colvdv/Signal-Desktop_Flatpak-Profile-Switcher/releases/latest).
 
