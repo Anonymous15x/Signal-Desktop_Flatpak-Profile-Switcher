@@ -1,4 +1,4 @@
-# COLVDV's Signal Desktop Flatpak Profile Switcher
+# Signal Desktop Flatpak Profile Switcher
 A simple Bash script to **back up, manage, and switch between multiple Signal Desktop accounts** installed via Flatpak on Linux (Fedora, Ubuntu, Linux Mint, etc.). Use different profiles/accounts without needing to re-link or reconfigure each time.
 
 ---
