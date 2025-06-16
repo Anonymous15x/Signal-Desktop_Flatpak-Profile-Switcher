@@ -51,3 +51,5 @@ This script supports **all Signal Desktop Flatpak releases**, as it works by bac
    ```bash
    ./COLVDV_Signal-Desktop_Flatpak-Profile-Switcher.sh
    ```
+
+6. Follow the prompts to use the script for switching Signal Desktop Flatpak profiles.
