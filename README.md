@@ -5,7 +5,7 @@ A simple Bash script to backup, manage, and switch between multiple Signal Deskt
 
 ## Features
 
-- Backup Signal Flatpak user data safely before switching profiles.  
+- Backup Signal Desktop Flatpak user data safely before switching profiles.  
 - Switch between two profiles (`Signal1` and `Signal2`) with custom descriptions.  
 - Ensures Signal Desktop is closed before switching to prevent data corruption.  
 - Stores backups in `~/.signal-flatpak-backups/`.  
