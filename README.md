@@ -38,7 +38,7 @@ This script supports **all Signal Desktop Flatpak releases**, as it works by bac
    cd /PATH/TO/DOWNLOADED/SCRIPT
    ```
    
-3. Make the script executable:
+3. Make the script executable (_one time only_):
 
    ```bash
    chmod +x COLVDV_Signal-Desktop_Flatpak-Profile-Switcher.sh
