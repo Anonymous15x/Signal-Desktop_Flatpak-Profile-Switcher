@@ -25,7 +25,7 @@ A simple Bash script to **back up, manage, and switch between multiple Signal De
 
 ## 🛠️ Compatibility
 
-This script **works with all versions of Signal Desktop installed via Flatpak**, by backing up and replacing the user data directory at:(`~/.var/app/org.signal.Signal`). It does **not rely on internal file formats**, so it remains compatible across updates.
+This script **works with all versions of Signal Desktop installed via Flatpak**, by backing up and replacing the user data directory at:(`~/.var/app/org.signal.Signal`). It does **not rely on internal file formats**, so it remains compatible across updates. It is recommended to load each profile after updating Signal Desktop to ensure continued compatibility, though this may not be necessary.
 
 ---
 
